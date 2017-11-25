@@ -55,6 +55,7 @@ Argument parsing within one command does not count towards that criteria.
 | Command edits | ✓ | ✓ | ? | ✓ †1 | ? | ? |
 | Subcommands | ✘ | ✘ | ? | ✘ | ? | ? |
 | Run from code | ✓ | ✓ | ? | ✓ | ? | ? |
+| Typing mode | ✓ | ? | ? | ✓ | ? | ? |
 | Help information | ✓ | ✓ | ? | ✓ | ? | ? |
 
 †1: In Klasa, command editing is an feature you must opt-in for.
@@ -211,7 +212,6 @@ They are used to opt-in or opt-out of built-in features.
 | Built-in locales | ∅ | ∅ | ? | ✓ | ? | ? |
 | Modify built-in locales | ∅ | ∅ | ? | ? | ? | ? |
 | Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ? |
-| Typing mode (while processing) | ? | ? | ? | ✓ | ? | ? |
 | Bot owner | ✓ | ✓ | ? | ✓ | ? | ? |
 | Multiple owners | ✓ | ✓ | ? | ✘ | ? | ? |
 | Module directories | ✓ | ✓ | ? | ✓ | ? | ? |
