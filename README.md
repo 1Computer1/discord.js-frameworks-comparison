@@ -33,9 +33,7 @@ This includes prefixes, aliases, etc.
 | Multiple prefixes | ✓ | ✘ | ? | ✓ | ? | ? |
 | Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ? | ? |
 | Regular expression trigger | ✓ | ✓ | ? | ✓ | ? | ? |
-| Stores prefix and alias used | ✓ | ✓ | ? | ※1 | ? | ? |
-
-※1: Klasa stores the prefix used and the raw text arguments, but not the alias used.
+| Stores original input | ✓ | ✓ | ? | ✓ | ? | ? |
 
 ## Command Handling
 
