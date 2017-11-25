@@ -122,9 +122,6 @@ Custom prompts do not count for other specific criterias, even if they are repli
 The module system of a framework is how the framework structures its modules.  
 This includes how new modules (e.g. commands) are created and loaded.  
 
-Less obvious criterias:
-- Initializing is a module method or function run once ready (so client/caches are available) used to cache module variables/properties.
-
 | **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Classes | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -132,7 +129,6 @@ Less obvious criterias:
 | ES module support | ✘ | ✘ | ? | ✘ | ? | ? |
 | TypeScript module support | ✓ | ✓ | ? | ✓ | ? | ? |
 | Recursive loading | ✓ | ✓ | ? | ✓ | ? | ? |
-| Initializing modules | ? | ? | ? | ✓ | ? | ? |
 | Loading and unloading | ✓ | ✓ | ? | ✓ | ? | ? |
 | Reloading modules | ✓ | ✓ | ? | ✓ | ? | ? |
 | Module categories | ✓ | ✓ | ? | ✓ | ? | ? |
