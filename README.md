@@ -189,20 +189,16 @@ Support for Promises, either as return values from the user or as implementation
 The settings of the framework are options that changes the behavior.  
 They are used to opt-in or opt-out of built-in features.  
 
+Built-in features marked as `✓` means they exist and are modifiable, `✘` means they exist and are not modifiable, and `∅` means they do not exist.  
+
 | **Settings** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Built-in commands | ✘ | ✓ | ? | ✓ | ? | ? |
-| Modify built-in commands | ∅ | ✘ | ? | ✓ | ? | ? |
-| Built-in event handlers | ✘ | ? | ? | ✓ | ? | ? |
-| Modify built-in event handlers | ∅ | ? | ? | ✓ | ? | ? |
-| Built-in command inhibitors | ✓ | ? | ? | ✓ | ? | ? |
-| Modify built-in commands inhibitors | ✘ | ? | ? | ✓ | ? | ? |
-| Built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
-| Modify built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
-| Built-in responses | ✓ ⇒ ✘ | ✓ | ? | ✓ | ? | ? |
-| Modify built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
-| Built-in locales | ∅ | ∅ | ? | ✓ | ? | ? |
-| Modify built-in locales | ∅ | ∅ | ? | ? | ? | ? |
+| Modifiable built-in commands | ∅ | ✘ | ? | ✓ | ? | ? |
+| Modifiable built-in event handlers | ∅ | ? | ? | ✓ | ? | ? |
+| Modifiable built-in inhibitors | ✘ | ? | ? | ✓ | ? | ? |
+| Modifiable built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
+| Modifiable built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
+| Modifiable built-in locales | ∅ | ∅ | ? | ? | ? | ? |
 | Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ? |
 | Bot owner | ✓ | ✓ | ? | ✓ | ? | ? |
 | Multiple owners | ✓ | ✓ | ? | ✘ | ? | ? |
