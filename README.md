@@ -29,10 +29,9 @@ This includes prefixes, aliases, etc.
 | Command aliases | ✓ | ✓ | ? | ✓ | ? | ? |
 | Mention as prefix | ✓ | ✓ | ? | ✓ | ? | ? |
 | Multiple prefixes | ✓ | ✘ | ? | ✓ | ? | ? |
-| Per-guild prefix customisation | ✓ | ✓ | ? | ? | ? | ? |
+| Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ? | ? |
 | Regular expression trigger | ✓ | ✓ | ? | ✓ | ? | ? |
-| Stores prefix and alias used | ✓ | ✘ | ? | ※1 | ? | ? |
-| Stores prefix and alias used | ✓ | ✓ | ? | ? | ? | ? |
+| Stores prefix and alias used | ✓ | ✓ | ? | ※1 | ? | ? |
 
 ※1: Klasa stores the prefix used and the raw text arguments, but not the alias used.
 
@@ -87,7 +86,7 @@ Less obvious criterias:
 | Custom arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 
 †1: In Klasa, Quoted arguments is an feature you must opt-in for, there are client-wide and per command options for this.  
-†2: Klasa has advanced versions of user/member/role/channel matching *[Official Plugin]* with aditional name lookup/reprompting on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces) for those who want a bit more than the standard id/mention + api fetch support. 
+†2: Klasa has advanced versions of user/member/role/channel matching *[Official Plugins]* with aditional name lookup/reprompting on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces) for those who want a bit more than the standard id/mention + api fetch support. 
 
 ## Prompting
 
@@ -122,10 +121,8 @@ This includes how new modules (e.g. commands) are created and loaded.
 
 | **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Classes | ✓ | ✓ | ? | ? | ? | ? |
-| Class instances | ✓ | ✘ | ? | ? | ? | ? |
-| Classes | ✓ | ✘ | ? | ✓ | ? | ? |
-| Class instances | ✓ | ✓ | ? | ✓ †1 | ? | ? |
+| Classes | ✓ | ✓ | ? | ✓ | ? | ? |
+| Class instances | ✓ | ✘ | ? | ✓ †1 | ? | ? |
 | Specific exports | ✘ | ✘ | ? | ✘ | ? | ? |
 | ES module support | ✘ | ✘ | ? | ✘ | ? | ? |
 | TypeScript module support | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -153,7 +150,7 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | MSSQL | ✘ | ✘ | ? | ✘ | ? | ? |
 | PostgreSQL | ✘ | ✘ | ? | ✘ | ? | ? |
 | Sequelize | ✓ | ✘ | ? | ✘ | ? | ? |
-| NeDB | ? | ? | ? | ✓† | ? | ? |
+| NeDB | ? | ? | ? | ✓ †1 | ? | ? |
 | MongoDB | ✘ | ✘ | ? | ✓ †1 | ? | ? |
 | RethinkDB | ✘ | ✘ | ? | ✓ †1 | ? | ? |
 | Custom providers | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -203,6 +200,12 @@ They are used to opt-in or opt-out of built-in features.
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Built-in commands | ✘ | ✓ | ? | ✓ | ? | ? |
 | Modify built-in commands | ∅ | ✘ | ? | ✓ | ? | ? |
+| Built-in event handlers | ? | ? | ? | ✓ | ? | ? |
+| Modify built-in event handlers | ? | ? | ? | ✓ | ? | ? |
+| Built-in command inhibitors | ? | ? | ? | ✓ | ? | ? |
+| Modify built-in commands inhibitors | ? | ? | ? | ✓ | ? | ? |
+| Built-in command handler | ? | ? | ? | ✓ | ? | ? |
+| Modify built-in command handler | ? | ? | ? | ✓ | ? | ? |
 | Built-in responses | ✓ ⇒ ✘ | ✓ | ? | ✓ | ? | ? |
 | Modify built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
 | Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ? |
