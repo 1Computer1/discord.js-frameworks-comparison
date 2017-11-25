@@ -128,7 +128,6 @@ Less obvious criterias:
 | **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Classes | ✓ | ✓ | ? | ✓ | ? | ? |
-| Class instances | ✓ | ✘ | ? | ✓ †1 | ? | ? |
 | Specific exports | ✘ | ✘ | ? | ✘ | ? | ? |
 | ES module support | ✘ | ✘ | ? | ✘ | ? | ? |
 | TypeScript module support | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -139,8 +138,6 @@ Less obvious criterias:
 | Module categories | ✓ | ✓ | ? | ✓ | ? | ? |
 | Custom module types | ✓ | ✘ | ? | ✓ | ? | ? |
 | Plugins support | ✘ | ✘ | ? | ✓ | ? | ? |
-
-†1: Klasa can accept instances assuming they are instances of their base class (This includes custom extended class instances). However, this is **not** a recommended way of using Klasa.
 
 ## Databases
 
@@ -184,7 +181,7 @@ Events that are useful for a framework are compared here.
 | On command error | ✓ | ✓ | ? | ✓ | ? | ? |
 | On database changes | ✘ | ✘ | ? | ✓ | ? | ? |
 | On module changes | ✓ | ✓ | ? | ✘ | ? | ? |
-| Custom Events | ? | ? | ? | ✓ | ? | ? |
+| Custom events | ? | ? | ? | ✓ | ? | ? |
 
 ## Promise Support
 
