@@ -216,9 +216,29 @@ They are used to opt-in or opt-out of built-in features.
 | Built-in responses | ✓ ⇒ ✘ | ✓ | ? | ✓ | ? | ? |
 | Modify built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
 | Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ? |
+| Typing mode (while processing) | ? | ? | ? | ✓ | ? | ? |
 | Bot owner | ✓ | ✓ | ? | ✓ | ? | ? |
 | Multiple owners | ✓ | ✓ | ? | ✘ | ? | ? |
 | Module directories | ✓ | ✓ | ? | ✓ | ? | ? |
+
+## Localization
+
+The languages that the framework is localized for (bot output).  
+
+| **Settings** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| --- | :-: | :-: | :-: | :-: | :-: | :-: |
+| English | ? | ? | ? | ✓ | ? | ? |
+| Chinese (Mandarin) | ? | ? | ? | ✘ | ? | ? |
+| French | ? | ? | ? | ✓ | ? | ? |
+| Spanish | ? | ? | ? | ✓ | ? | ? |
+| Hindi | ? | ? | ? | ✘ | ? | ? |
+| Arabic | ? | ? | ? | ✘ | ? | ? |
+| Portuguese | ? | ? | ? | ✘ | ? | ? |
+| Russian | ? | ? | ? | ✘ | ? | ? |
+| Japanese | ? | ? | ? | ✘ | ? | ? |
+| German | ? | ? | ? | ✓ | ? | ? |
+| Romanian | ? | ? | ? | ✓ | ? | ? |
+| Turkish | ? | ? | ? | ✘ ⇒ ✓ | ? | ? |
 
 ## Legend
 
