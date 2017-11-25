@@ -15,7 +15,7 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 | Discord.js version | `^11.2.1` | `^11.2.1` | `^11.1.0` | Master branch | Master branch | Custom 11.1 |
 | Node.js version | 6.0.0 | 7.0.0 | 6.0.0 | 8.1.0 ⇒ 8.5.0 | 8.5.0 | 8.0.0 |
 | Typings | ✓ | ✓ | ✓ †1 | ✓ | ✘ | ✓ †1 |
-| Dependencies | 0 | 3 | 1 | 6 ⇒ 2 | 4 | 5 |
+| Dependencies | 0 | 3 | 1 | 5 ⇒ 2 | 4 | 5 |
 
 †1: Handles and YAMDBF are written in TypeScript.  
 
