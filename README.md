@@ -108,8 +108,8 @@ This includes how new modules (e.g. commands) are created and loaded.
 
 | **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Classes | ✓ | ✘ | ? | ? | ? | ? |
-| Class instances | ✓ | ✓ | ? | ? | ? | ? |
+| Classes | ✓ | ✓ | ? | ? | ? | ? |
+| Class instances | ✓ | ✘ | ? | ? | ? | ? |
 | Specific exports | ✘ | ✘ | ? | ? | ? | ? |
 | ES module support | ✘ | ✘ | ? | ? | ? | ? |
 | TypeScript module support | ✓ | ✓ | ? | ? | ? | ? |
