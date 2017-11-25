@@ -64,7 +64,7 @@ Less obvious criterias:
 - User/member/role/channel matching means to be able to find an item based on approximations to their name, their ID, etc.
 
 | **Argument Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
-| --- | :-: | :-: | :-: | :-: | :-: | :-: | --- |
+| --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ordered arguments | ✓ | ✓ | ? | ? | ? | ? |
 | Unordered arguments | ✘ ⇒ ✓ | ✘ | ? | ? | ? | ? |
 | Optional arguments | ✓ | ✓ | ? | ? | ? | ? |
