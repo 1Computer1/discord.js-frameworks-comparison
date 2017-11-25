@@ -52,13 +52,11 @@ Argument parsing within one command does not count towards that criteria.
 | Blocking messages | ✓ | ✓ | ? | ✓ | ? | ? |
 | Channel restrictions | ✓ | ✓ | ? | ✘ | ? | ? |
 | Permissions restrictions | ✓ | ✓ | ? | ✓ | ? | ? |
-| Command edits | ✓ | ✓ | ? | ✓ †1 | ? | ? |
+| Command edits | ✓ | ✓ | ? | ✓ | ? | ? |
 | Subcommands | ✘ | ✘ | ? | ✘ | ? | ? |
 | Run from code | ✓ | ✓ | ? | ✓ | ? | ? |
 | Typing mode | ✓ | ? | ? | ✓ | ? | ? |
 | Help information | ✓ | ✓ | ? | ✓ | ? | ? |
-
-†1: In Klasa, command editing is an feature you must opt-in for.
 
 ## Argument Parsing
 
@@ -75,7 +73,7 @@ Less obvious criterias:
 | Ordered arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 | Unordered arguments | ✘ ⇒ ✓ | ✘ | ? | ✘ | ? | ? |
 | Optional arguments | ✓ | ✓ | ? | ✓ | ? | ? |
-| Quoted arguments | ✓ | ✓ | ? | ✓ †1 | ? | ? |
+| Quoted arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 | Flag arguments | ✓ | ✘ | ? | ✘ | ? | ? |
 | Rest arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 | Dependent arguments | ✓ | ✘ | ? | ✘ | ? | ? |
@@ -90,8 +88,6 @@ Less obvious criterias:
 
 ※1: Klasa only supports IDs and mentions.  
 
-†1: In Klasa, quoted arguments is a feature you must opt-in for.  
-
 ## Prompting
 
 Prompting is the ability to collect messages from the user without invoking a command directly.  
@@ -99,7 +95,7 @@ Custom prompts do not count for other specific criterias, even if they are repli
 
 | **Prompting** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| From argument parsing | ✓ | ✓ | ? | ✓ †1 | ? | ? |
+| From argument parsing | ✓ | ✓ | ? | ✓ | ? | ? |
 | Prompt from code | ✓ | ✓ | ? | ✘ | ? | ? |
 | Prompt time limit | ✓ | ✓ | ? | ※4 | ? | ? |
 | Prompt retry limit | ✓ | ✓ | ? | ✘ | ? | ? |
@@ -108,15 +104,14 @@ Custom prompts do not count for other specific criterias, even if they are repli
 | Custom text prompt system | ✘ | ✘ | ? | ✘ | ? | ? |
 | Custom reaction prompt system | ? | ? | ? | ✓ | ? | ? |
 | Custom prompt messages | ✓ | ※1 | ? | ✓ | ? | ? |
-| Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ? | †2 | ? | ? |
+| Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ? | †1 | ? | ? |
 
 ※1: Commando appends built-in text to prompt messages.  
 ※2: Akairo stores only the last editable response.  
 ※3: Commando stores only the responses.  
 ※4: Non-configurable time limit of 30 seconds.  
 
-†1: In Klasa, argument reprompting is an feature you must opt-in for.  
-†2: Klasa stores the raw args/parameters resolved.  
+†1: Klasa stores the raw args/parameters resolved.  
 
 ## Module System
 
@@ -161,7 +156,7 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | Localization | ✘ | ✘ | ? | ✓ | ? | ? |
 | Custom settings | ✓ | ✓ | ? | ✓ | ? | ? |
 
-†1: Klasa has Official Plugins for these databases on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces).
+†1: Klasa has official plugins for these databases on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces).
 
 ## Events
 
@@ -244,6 +239,9 @@ Any issue or pull request that wish to change or add information should have sub
 If the status between the stable release and development version is unknown, assume they are the same (e.g. `✘` instead of `✘ ⇒ .`).  
 Features that are partially available as well as notes should be numbered (e.g. `※1` or `✓ †1`) and noted below.  
 Notes should refer to the stable version unless explicitly referred to as development version.  
+
+Opt-in features should be labelled as `✓`, do not make a note that they are opt-in.  
+Official plugins are to be labelled with a `✓`, along with a note as to where to find them.  
 
 ## Biases
 
