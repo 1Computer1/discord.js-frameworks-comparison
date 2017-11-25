@@ -29,9 +29,9 @@ This includes prefixes, aliases, etc.
 | Command aliases | ✓ | ✓ | ? | ? | ? | ? |
 | Mention as prefix | ✓ | ✓ | ? | ? | ? | ? |
 | Multiple prefixes | ✓ | ✘ | ? | ? | ? | ? |
-| Changeable prefixes | ✓ | ✓ | ? | ? | ? | ? |
+| Per-guild prefix customisation | ✓ | ✓ | ? | ? | ? | ? |
 | Regular expression trigger | ✓ | ✓ | ? | ? | ? | ? |
-| Stores prefix and alias used | ✓ | ✘ | ? | ? | ? | ? |
+| Stores prefix and alias used | ✓ | ✓ | ? | ? | ? | ? |
 
 ## Command Handling
 
@@ -179,7 +179,7 @@ They are used to opt-in or opt-out of built-in features.
 | **Settings** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Built-in commands | ✘ | ✓ | ? | ? | ? | ? |
-| Modify built-in commands | ∅ | ✘ | ? | ? | ? | ? |
+| Modify built-in commands | ∅ | ✓ | ? | ? | ? | ? |
 | Built-in responses | ✓ ⇒ ✘ | ✓ | ? | ? | ? | ? |
 | Modify built-in responses | ✓ ⇒ ∅ | ✘ | ? | ? | ? | ? |
 | Selfbot mode | ✓ | ✓ | ? | ? | ? | ? |
