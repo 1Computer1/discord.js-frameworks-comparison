@@ -84,12 +84,12 @@ Less obvious criterias:
 | User and member matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Role matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Channel matching | ✓ | ✓ | ? | ※1 | ? | ? |
-| Regex arguments | ? | ? | ? | ✓ | ? | ? |
+| Regular expression arguments | ? | ? | ? | ✓ | ? | ? |
 | Custom arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 
-※1: Klasa supports ids and mentions, and fetches from the api. Name lookup and reprompting on multi match currently missing.
+※1: Klasa only supports IDs and mentions.  
 
-†1: In Klasa, Quoted arguments is an feature you must opt-in for, there are client-wide and per command options for this.  
+†1: In Klasa, quoted arguments is a feature you must opt-in for.  
 
 ## Prompting
 
@@ -114,8 +114,8 @@ Custom prompts do not count for other specific criterias, even if they are repli
 ※3: Commando stores only the responses.  
 ※4: Non-configurable time limit of 30 seconds.  
 
-†1: In Klasa, argument reprompting is an option you must opt-in for.  
-†2: Klasa stores/identifies that a command has been reprompted. It appends in the raw args/parameters resolved.  
+†1: In Klasa, argument reprompting is an feature you must opt-in for.  
+†2: Klasa stores the raw args/parameters resolved.  
 
 ## Module System
 
@@ -164,7 +164,7 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | Localization | ✘ | ✘ | ? | ✓ | ? | ? |
 | Custom settings | ✓ | ✓ | ? | ✓ | ? | ? |
 
-†1: Klasa has providers *[Official Plugins]* for these databases on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces).
+†1: Klasa has Official Plugins for these databases on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces).
 
 ## Events
 
