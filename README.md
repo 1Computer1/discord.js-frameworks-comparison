@@ -134,7 +134,7 @@ This includes how new modules (e.g. commands) are created and loaded.
 | Custom module types | ✓ | ✘ | ? | ✓ | ? | ? |
 | Plugins support | ✘ | ✘ | ? | ✓ | ? | ? |
 
-†1: Klasa can accept instances assuming they are instances of their base class. However, this is **not** a recommended way of using Klasa.
+†1: Klasa can accept instances assuming they are instances of their base class (This includes custom extended class instances). However, this is **not** a recommended way of using Klasa.
 
 ## Databases
 
