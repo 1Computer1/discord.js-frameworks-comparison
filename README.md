@@ -79,14 +79,15 @@ Less obvious criterias:
 | Argument types | ✓ | ✓ | ? | ✓ | ? | ? |
 | Union types | ✘ ⇒ ✓ | ✘ | ? | ✓ | ? | ? |
 | Custom types | ✓ | ✓ | ? | ✓ | ? | ? |
-| User and member matching | ✓ | ✓ | ? | ✓ †2 | ? | ? |
-| Role matching | ✓ | ✓ | ? | ✓ †2 | ? | ? |
-| Channel matching | ✓ | ✓ | ? | ✓ †2 | ? | ? |
+| User and member matching | ✓ | ✓ | ? | ※1 | ? | ? |
+| Role matching | ✓ | ✓ | ? | ※1 | ? | ? |
+| Channel matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Regex arguments | ? | ? | ? | ✓ | ? | ? |
 | Custom arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 
+※1: Klasa supports ids and mentions, and fetches from the api. Name lookup and reprompting on multi match currently missing.
+
 †1: In Klasa, Quoted arguments is an feature you must opt-in for, there are client-wide and per command options for this.  
-†2: Klasa has advanced versions of user/member/role/channel matching *[Official Plugins]* with aditional name lookup/reprompting on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces) for those who want a bit more than the standard id/mention + api fetch support. 
 
 ## Prompting
 
