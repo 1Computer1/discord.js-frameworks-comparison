@@ -29,7 +29,7 @@ This includes prefixes, aliases, etc.
 | Command aliases | ✓ | ✓ | ? | ? | ? | ? |
 | Mention as prefix | ✓ | ✓ | ? | ? | ? | ? |
 | Multiple prefixes | ✓ | ✘ | ? | ? | ? | ? |
-| Dynamic prefixes | ✓ | ✘ | ? | ? | ? | ? |
+| Changeable prefixes | ✓ | ✓ | ? | ? | ? | ? |
 | Regular expression trigger | ✓ | ✓ | ? | ? | ? | ? |
 | Stores prefix and alias used | ✓ | ✘ | ? | ? | ? | ? |
 
