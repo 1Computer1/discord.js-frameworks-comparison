@@ -103,15 +103,14 @@ Custom prompts do not count for other specific criterias, even if they are repli
 | Infinite prompts | ✓ | ✓ | ? | ✓ | ? | ? |
 | Custom text prompt system | ✘ | ✘ | ? | ✘ | ? | ? |
 | Custom prompt messages | ✓ | ※1 | ? | ✓ | ? | ? |
-| Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ? | †1 | ? | ? |
+| Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ? | ※5 | ? | ? |
 | Reaction prompt system | ✘ | ? | ? | ✓ | ? | ? |
 
 ※1: Commando appends built-in text to prompt messages.  
 ※2: Akairo stores only the last editable response.  
 ※3: Commando stores only the responses.  
 ※4: Non-configurable time limit of 30 seconds.  
-
-†1: Klasa stores the raw args/parameters resolved.  
+※5: Klasa stores the raw args/parameters resolved.  
 
 ## Module System
 
