@@ -17,7 +17,7 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 | Typings | ✓ | ✓ | ✓ †1 | ✓ | ✘ | ✓ †1 |
 | Dependencies | 0 | 3 | 1 | 5 | 4 | 5 |
 | Documentation | [Akairo](https://1computer1.github.io/discord-akairo/) | [Commando](https://discord.js.org/#/docs/commando/master/general/welcome) | [Handles](http://handles.topkek.pw/) | [Klasa](https://klasa.js.org/) | [Komada](https://komada.js.org/) | [YAMDBF](https://yamdbf.js.org/) |
-| VSCode Extension | ? | ? | ? | ✓ | ? | ? |
+| VSCode Extension | ✘ | ? | ? | ✓ | ? | ? |
 
 †1: Handles and YAMDBF are written in TypeScript.  
 
@@ -102,9 +102,9 @@ Custom prompts do not count for other specific criterias, even if they are repli
 | Prompt cancellation | ✓ | ✓ | ? | ✓ | ? | ? |
 | Infinite prompts | ✓ | ✓ | ? | ✓ | ? | ? |
 | Custom text prompt system | ✘ | ✘ | ? | ✘ | ? | ? |
-| Custom reaction prompt system | ? | ? | ? | ✓ | ? | ? |
 | Custom prompt messages | ✓ | ※1 | ? | ✓ | ? | ? |
 | Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ? | †1 | ? | ? |
+| Reaction prompt system | ✘ | ? | ? | ✓ | ? | ? |
 
 ※1: Commando appends built-in text to prompt messages.  
 ※2: Akairo stores only the last editable response.  
@@ -146,7 +146,7 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | MSSQL | ✘ | ✘ | ? | ✘ | ? | ? |
 | PostgreSQL | ✘ | ✘ | ? | ✘ | ? | ? |
 | Sequelize | ✓ | ✘ | ? | ✘ | ? | ? |
-| NeDB | ? | ? | ? | ✓ †1 | ? | ? |
+| NeDB | ✘ | ? | ? | ✓ †1 | ? | ? |
 | MongoDB | ✘ | ✘ | ? | ✓ †1 | ? | ? |
 | RethinkDB | ✘ | ✘ | ? | ✓ †1 | ? | ? |
 | Custom providers | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -165,7 +165,7 @@ Events that are useful for a framework are compared here.
 | **Events** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Modular event listeners | ✓ | ✘ | ? | ✓ | ? | ? |
-| Reloadable event structures | ? | ? | ? | ✓ | ? | ? |
+| Reloadable event structures | ✓ | ? | ? | ✓ | ? | ? |
 | On invalid commands | ✓ | ✓ | ? | ✘ | ? | ? |
 | On command blocked | ✓ | ✓ | ? | ✓ | ? | ? |
 | On command start | ✓ | ✓ | ? | ✘ | ? | ? |
@@ -173,7 +173,7 @@ Events that are useful for a framework are compared here.
 | On command error | ✓ | ✓ | ? | ✓ | ? | ? |
 | On database changes | ✘ | ✘ | ? | ✓ | ? | ? |
 | On module changes | ✓ | ✓ | ? | ✘ | ? | ? |
-| Custom events | ? | ? | ? | ✓ | ? | ? |
+| Custom events | ✓ | ? | ? | ✓ | ? | ? |
 
 ## Promise Support
 
@@ -196,12 +196,12 @@ They are used to opt-in or opt-out of built-in features.
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Built-in commands | ✘ | ✓ | ? | ✓ | ? | ? |
 | Modify built-in commands | ∅ | ✘ | ? | ✓ | ? | ? |
-| Built-in event handlers | ? | ? | ? | ✓ | ? | ? |
-| Modify built-in event handlers | ? | ? | ? | ✓ | ? | ? |
-| Built-in command inhibitors | ? | ? | ? | ✓ | ? | ? |
-| Modify built-in commands inhibitors | ? | ? | ? | ✓ | ? | ? |
-| Built-in command handler | ? | ? | ? | ✓ | ? | ? |
-| Modify built-in command handler | ? | ? | ? | ✓ | ? | ? |
+| Built-in event handlers | ✘ | ? | ? | ✓ | ? | ? |
+| Modify built-in event handlers | ∅ | ? | ? | ✓ | ? | ? |
+| Built-in command inhibitors | ✓ | ? | ? | ✓ | ? | ? |
+| Modify built-in commands inhibitors | ✘ | ? | ? | ✓ | ? | ? |
+| Built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
+| Modify built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
 | Built-in responses | ✓ ⇒ ✘ | ✓ | ? | ✓ | ? | ? |
 | Modify built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
 | Built-in locales | ∅ | ∅ | ? | ✓ | ? | ? |
