@@ -95,7 +95,7 @@ Custom prompts do not count for other specific criterias, even if they are repli
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | From argument parsing | ✓ | ✓ | ? | ✓ | ? | ? |
 | Prompt from code | ✓ | ✓ | ? | ✘ | ? | ? |
-| Prompt time limit | ✓ | ✓ | ? | ※4 | ? | ? |
+| Prompt time limit | ✓ | ✓ | ? | ※4 ⇒ ✓ | ? | ? |
 | Prompt retry limit | ✓ | ✓ | ? | ✘ | ? | ? |
 | Prompt cancellation | ✓ | ✓ | ? | ✓ | ? | ? |
 | Infinite prompts | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -163,13 +163,13 @@ Events that are useful for a framework are compared here.
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Modular event listeners | ✓ | ✘ | ? | ✓ | ? | ? |
 | Reloadable event structures | ✓ | ? | ? | ✓ | ? | ? |
-| On invalid commands | ✓ | ✓ | ? | ✘ | ? | ? |
+| On invalid commands | ✓ | ✓ | ? | ✘ ⇒ ✓ | ? | ? |
 | On command blocked | ✓ | ✓ | ? | ✓ | ? | ? |
 | On command start | ✓ | ✓ | ? | ✘ | ? | ? |
 | On command end | ✓ | ✘ | ? | ✓ | ? | ? |
 | On command error | ✓ | ✓ | ? | ✓ | ? | ? |
 | On database changes | ✘ | ✘ | ? | ✓ | ? | ? |
-| On module changes | ✓ | ✓ | ? | ✘ | ? | ? |
+| On module changes | ✓ | ✓ | ? | ✘ ⇒ ✓ | ? | ? |
 | Custom events | ✓ | ? | ? | ✓ | ? | ✓ |
 
 ## Promise Support
@@ -198,10 +198,10 @@ Built-in features marked as `✓` means they exist and are modifiable, `✘` mea
 | Modifiable built-in inhibitors | ✘ | ? | ? | ✓ | ? | ? |
 | Modifiable built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
 | Modifiable built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ✓ |
-| Modifiable built-in locales | ∅ | ∅ | ? | ? | ? | ✓ |
+| Modifiable built-in locales | ∅ | ∅ | ? | ✓ | ? | ✓ |
 | Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Bot owner | ✓ | ✓ | ? | ✓ | ? | ✓ |
-| Multiple owners | ✓ | ✓ | ? | ✘ | ? | ✓ |
+| Multiple owners | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Module directories | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 ## Legend
