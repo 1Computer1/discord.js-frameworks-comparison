@@ -81,7 +81,7 @@ Less obvious criterias:
 | User and member matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Role matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Channel matching | ✓ | ✓ | ? | ※1 | ? | ? |
-| Regular expression arguments | ? | ? | ? | ✓ | ? | ? |
+| Regular expression arguments | ✓ | ? | ? | ✓ | ? | ? |
 | Custom arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 ※1: Klasa only supports IDs and mentions.  
