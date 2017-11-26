@@ -17,7 +17,7 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 | Typings | ✓ | ✓ | ✓ †1 | ✓ | ✘ | ✓ †1 |
 | Dependencies | 0 | 3 | 1 | 5 | 4 | 5 |
 | Documentation | [Akairo](https://1computer1.github.io/discord-akairo/) | [Commando](https://discord.js.org/#/docs/commando/master/general/welcome) | [Handles](http://handles.topkek.pw/) | [Klasa](https://klasa.js.org/) | [Komada](https://komada.js.org/) | [YAMDBF](https://yamdbf.js.org/) |
-| VSCode Extension | ✘ | ? | ? | ✓ | ? | ? |
+| VSCode Extension | ✘ | ? | ? | ✓ | ? | ✘ |
 
 †1: Handles and YAMDBF are written in TypeScript.  
 
@@ -28,12 +28,12 @@ This includes prefixes, aliases, etc.
 
 | **Command Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Command aliases | ✓ | ✓ | ? | ✓ | ? | ? |
+| Command aliases | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Mention as prefix | ✓ | ✓ | ? | ✓ | ? | ? |
-| Multiple prefixes | ✓ | ✘ | ? | ✓ | ? | ? |
-| Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ? | ? |
-| Regular expression trigger | ✓ | ✓ | ? | ✓ | ? | ? |
-| Stores original input | ✓ | ✓ | ? | ✓ | ? | ? |
+| Multiple prefixes | ✓ | ✘ | ? | ✓ | ? | ✘ |
+| Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Regular expression trigger | ✓ | ✓ | ? | ✓ | ? | ✘ |
+| Stores original input | ✓ | ✓ | ? | ✓ | ? | ✘ |
 
 ## Command Handling
 
@@ -45,16 +45,16 @@ Argument parsing within one command does not count towards that criteria.
 
 | **Command Handling** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Cooldowns | ✓ | ✓ | ? | ✓ | ? | ? |
+| Cooldowns | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Monitoring messages | ✓ | ✓ | ? | ✓ | ? | ? |
 | Blocking messages | ✓ | ✓ | ? | ✓ | ? | ? |
-| Channel restrictions | ✓ | ✓ | ? | ✘ | ? | ? |
-| Permissions restrictions | ✓ | ✓ | ? | ✓ | ? | ? |
+| Channel restrictions | ✓ | ✓ | ? | ✘ | ? | ✓ |
+| Permissions restrictions | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Command edits | ✓ | ✓ | ? | ✓ | ? | ? |
 | Subcommands | ✘ | ✘ | ? | ✘ | ? | ? |
-| Run from code | ✓ | ✓ | ? | ✓ | ? | ? |
+| Run from code | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Typing mode | ✓ | ? | ? | ✓ | ? | ? |
-| Help information | ✓ | ✓ | ? | ✓ | ? | ? |
+| Help information | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 ## Argument Parsing
 
@@ -68,7 +68,7 @@ Less obvious criterias:
 
 | **Argument Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Ordered arguments | ✓ | ✓ | ? | ✓ | ? | ? |
+| Ordered arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Unordered arguments | ✘ ⇒ ✓ | ✘ | ? | ✘ | ? | ? |
 | Optional arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 | Quoted arguments | ✓ | ✓ | ? | ✓ | ? | ? |
@@ -77,12 +77,12 @@ Less obvious criterias:
 | Dependent arguments | ✓ | ✘ | ? | ✘ | ? | ? |
 | Argument types | ✓ | ✓ | ? | ✓ | ? | ? |
 | Union types | ✘ ⇒ ✓ | ✘ | ? | ✓ | ? | ? |
-| Custom types | ✓ | ✓ | ? | ✓ | ? | ? |
+| Custom types | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | User and member matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Role matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Channel matching | ✓ | ✓ | ? | ※1 | ? | ? |
 | Regular expression arguments | ? | ? | ? | ✓ | ? | ? |
-| Custom arguments | ✓ | ✓ | ? | ✓ | ? | ? |
+| Custom arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 ※1: Klasa only supports IDs and mentions.  
 
@@ -117,16 +117,16 @@ This includes how new modules (e.g. commands) are created and loaded.
 
 | **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Classes | ✓ | ✓ | ? | ✓ | ? | ? |
-| Specific exports | ✘ | ✘ | ? | ✘ | ? | ? |
-| ES module support | ✘ | ✘ | ? | ✘ | ? | ? |
-| TypeScript module support | ✓ | ✓ | ? | ✓ | ? | ? |
+| Classes | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Specific exports | ✘ | ✘ | ? | ✘ | ? | ✘ |
+| ES module support | ✘ | ✘ | ? | ✘ | ? | ✘ |
+| TypeScript module support | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Recursive loading | ✓ | ✓ | ? | ✓ | ? | ? |
 | Loading and unloading | ✓ | ✓ | ? | ✓ | ? | ? |
 | Reloading modules | ✓ | ✓ | ? | ✓ | ? | ? |
-| Module categories | ✓ | ✓ | ? | ✓ | ? | ? |
+| Module categories | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Custom module types | ✓ | ✘ | ? | ✓ | ? | ? |
-| Plugins support | ✘ | ✘ | ? | ✓ | ? | ? |
+| Plugins support | ✘ | ✘ | ? | ✓ | ? | ✓ |
 
 ## Databases
 
@@ -151,7 +151,7 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | Blacklist | ✘ | ✘ | ? | ✘ | ? | ? |
 | Prefixes | ✘ | ✓ | ? | ✓ | ? | ? |
 | Localization | ✘ | ✘ | ? | ✓ | ? | ? |
-| Custom settings | ✓ | ✓ | ? | ✓ | ? | ? |
+| Custom settings | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 †1: Klasa has official plugins for these databases on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces).
 
@@ -199,10 +199,10 @@ Built-in features marked as `✓` means they exist and are modifiable, `✘` mea
 | Modifiable built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
 | Modifiable built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
 | Modifiable built-in locales | ∅ | ∅ | ? | ? | ? | ? |
-| Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ? |
-| Bot owner | ✓ | ✓ | ? | ✓ | ? | ? |
-| Multiple owners | ✓ | ✓ | ? | ✘ | ? | ? |
-| Module directories | ✓ | ✓ | ? | ✓ | ? | ? |
+| Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Bot owner | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Multiple owners | ✓ | ✓ | ? | ✘ | ? | ✓ |
+| Module directories | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 ## Legend
 
