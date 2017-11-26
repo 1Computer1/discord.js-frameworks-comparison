@@ -29,7 +29,7 @@ This includes prefixes, aliases, etc.
 | **Command Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Command aliases | ✓ | ✓ | ? | ✓ | ? | ✓ |
-| Mention as prefix | ✓ | ✓ | ? | ✓ | ? | ? |
+| Mention as prefix | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Multiple prefixes | ✓ | ✘ | ? | ✓ | ? | ✘ |
 | Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Regular expression trigger | ✓ | ✓ | ? | ✓ | ? | ✘ |
@@ -70,17 +70,17 @@ Less obvious criterias:
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ordered arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Unordered arguments | ✘ ⇒ ✓ | ✘ | ? | ✘ | ? | ? |
-| Optional arguments | ✓ | ✓ | ? | ✓ | ? | ? |
+| Optional arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Quoted arguments | ✓ | ✓ | ? | ✓ | ? | ? |
 | Flag arguments | ✓ | ✘ | ? | ✘ | ? | ? |
-| Rest arguments | ✓ | ✓ | ? | ✓ | ? | ? |
+| Rest arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Dependent arguments | ✓ | ✘ | ? | ✘ | ? | ? |
-| Argument types | ✓ | ✓ | ? | ✓ | ? | ? |
+| Argument types | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Union types | ✘ ⇒ ✓ | ✘ | ? | ✓ | ? | ? |
 | Custom types | ✓ | ✓ | ? | ✓ | ? | ✓ |
-| User and member matching | ✓ | ✓ | ? | ※1 | ? | ? |
-| Role matching | ✓ | ✓ | ? | ※1 | ? | ? |
-| Channel matching | ✓ | ✓ | ? | ※1 | ? | ? |
+| User and member matching | ✓ | ✓ | ? | ※1 | ? | ✓ |
+| Role matching | ✓ | ✓ | ? | ※1 | ? | ✓ |
+| Channel matching | ✓ | ✓ | ? | ※1 | ? | ✓ |
 | Regular expression arguments | ✓ | ? | ? | ✓ | ? | ? |
 | Custom arguments | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
@@ -138,19 +138,19 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 
 | **Databases** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| SQLite | ✓ | ✓ | ? | ✓ †1 | ? | ? |
-| MySQL | ✘ | ✘ | ? | ✓ †1 | ? | ? |
-| MSSQL | ✘ | ✘ | ? | ✘ | ? | ? |
-| PostgreSQL | ✘ | ✘ | ? | ✘ | ? | ? |
-| Sequelize | ✓ | ✘ | ? | ✘ | ? | ? |
+| SQLite | ✓ | ✓ | ? | ✓ †1 | ? | ✓ |
+| MySQL | ✘ | ✘ | ? | ✓ †1 | ? | ✓ |
+| MSSQL | ✘ | ✘ | ? | ✘ | ? | ✓ |
+| PostgreSQL | ✘ | ✘ | ? | ✘ | ? | ✓ |
+| Sequelize | ✓ | ✘ | ? | ✘ | ? | ✓ |
 | NeDB | ✘ | ? | ? | ✓ †1 | ? | ? |
 | MongoDB | ✘ | ✘ | ? | ✓ †1 | ? | ? |
 | RethinkDB | ✘ | ✘ | ? | ✓ †1 | ? | ? |
-| Custom providers | ✓ | ✓ | ? | ✓ | ? | ? |
-| Disabled commands | ✘ | ✓ | ? | ✓ | ? | ? |
-| Blacklist | ✘ | ✘ | ? | ✘ | ? | ? |
-| Prefixes | ✘ | ✓ | ? | ✓ | ? | ? |
-| Localization | ✘ | ✘ | ? | ✓ | ? | ? |
+| Custom providers | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Disabled commands | ✘ | ✓ | ? | ✓ | ? | ✓ |
+| Blacklist | ✘ | ✘ | ? | ✘ | ? | ✓ |
+| Prefixes | ✘ | ✓ | ? | ✓ | ? | ✓ |
+| Localization | ✘ | ✘ | ? | ✓ | ? | ✓ |
 | Custom settings | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 †1: Klasa has official plugins for these databases on the [**Pieces Repo**](https://github.com/dirigeants/klasa-pieces).
@@ -170,7 +170,7 @@ Events that are useful for a framework are compared here.
 | On command error | ✓ | ✓ | ? | ✓ | ? | ? |
 | On database changes | ✘ | ✘ | ? | ✓ | ? | ? |
 | On module changes | ✓ | ✓ | ? | ✘ | ? | ? |
-| Custom events | ✓ | ? | ? | ✓ | ? | ? |
+| Custom events | ✓ | ? | ? | ✓ | ? | ✓ |
 
 ## Promise Support
 
@@ -178,11 +178,11 @@ Support for Promises, either as return values from the user or as implementation
 
 | **Promise Support** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Promises used internally | ✓ | ✓ | ? | ✓ | ? | ? |
+| Promises used internally | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Message monitoring | ✓ | ✘ | ? | ✓ | ? | ? |
-| Argument parsing | ✓ | ✓ | ? | ✓ | ? | ? |
-| Command restrictions | ✘ ⇒ ✓ | ✘ | ? | ✓ | ? | ? |
-| Command execution | ✓ | ✓ | ? | ✓ | ? | ? |
+| Argument parsing | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Command restrictions | ✘ ⇒ ✓ | ✘ | ? | ✓ | ? | ✓ |
+| Command execution | ✓ | ✓ | ? | ✓ | ? | ✓ |
 
 ## Settings
 
@@ -193,12 +193,12 @@ Built-in features marked as `✓` means they exist and are modifiable, `✘` mea
 
 | **Settings** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Modifiable built-in commands | ∅ | ✘ | ? | ✓ | ? | ? |
+| Modifiable built-in commands | ∅ | ✘ | ? | ✓ | ? | ✓ |
 | Modifiable built-in event handlers | ∅ | ? | ? | ✓ | ? | ? |
 | Modifiable built-in inhibitors | ✘ | ? | ? | ✓ | ? | ? |
 | Modifiable built-in command handler | ✓ | ? | ? | ✓ | ? | ? |
-| Modifiable built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ? |
-| Modifiable built-in locales | ∅ | ∅ | ? | ? | ? | ? |
+| Modifiable built-in responses | ✓ ⇒ ∅ | ✘ | ? | ✓ | ? | ✓ |
+| Modifiable built-in locales | ∅ | ∅ | ? | ? | ? | ✓ |
 | Selfbot mode | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Bot owner | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Multiple owners | ✓ | ✓ | ? | ✘ | ? | ✓ |
