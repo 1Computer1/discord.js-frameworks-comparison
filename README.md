@@ -17,7 +17,7 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 | Typings | ✓ | ✓ | ✓ †1 | ✓ | ✘ | ✓ †1 |
 | Dependencies | 0 | 3 | 1 | 5 | 4 | 5 |
 | Documentation | [Akairo](https://1computer1.github.io/discord-akairo/) | [Commando](https://discord.js.org/#/docs/commando/master/general/welcome) | [Handles](http://handles.topkek.pw/) | [Klasa](https://klasa.js.org/) | [Komada](https://komada.js.org/) | [YAMDBF](https://yamdbf.js.org/) |
-| VSCode Extension | ✘ | ? | ? | ✓ | ? | ✘ |
+| VSCode Extension | ✘ | ? | ? | ✓ | ✓ | ✘ |
 
 †1: Handles and YAMDBF are written in TypeScript.  
 
@@ -28,10 +28,10 @@ This includes prefixes, aliases, etc.
 
 | **Command Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Command aliases | ✓ | ✓ | ? | ✓ | ? | ✓ |
-| Mention as prefix | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Command aliases | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
+| Mention as prefix | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 | Multiple prefixes | ✓ | ✘ | ? | ✓ | ? | ✘ |
-| Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Per-guild prefix customisation | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 | Regular expression trigger | ✓ | ✓ | ? | ✓ | ? | ✘ |
 | Stores original input | ✓ | ✓ | ? | ✓ | ? | ✘ |
 
@@ -45,16 +45,16 @@ Argument parsing within one command does not count towards that criteria.
 
 | **Command Handling** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Cooldowns | ✓ | ✓ | ? | ✓ | ? | ✓ |
-| Monitoring messages | ✓ | ✓ | ? | ✓ | ? | ? |
+| Cooldowns | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
+| Monitoring messages | ✓ | ✓ | ? | ✓ | ✓ | ? |
 | Blocking messages | ✓ | ✓ | ? | ✓ | ? | ? |
 | Channel restrictions | ✓ | ✓ | ? | ✘ | ? | ✓ |
-| Permissions restrictions | ✓ | ✓ | ? | ✓ | ? | ✓ |
-| Command edits | ✓ | ✓ | ? | ✓ | ? | ? |
+| Permissions restrictions | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
+| Command edits | ✓ | ✓ | ? | ✓ | ✓ | ? |
 | Subcommands | ✘ | ✘ | ? | ✘ | ? | ? |
 | Run from code | ✓ | ✓ | ? | ✓ | ? | ✓ |
 | Typing mode | ✓ | ? | ? | ✓ | ? | ? |
-| Help information | ✓ | ✓ | ? | ✓ | ? | ✓ |
+| Help information | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 
 ## Argument Parsing
 
