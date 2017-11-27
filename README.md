@@ -118,8 +118,8 @@ This includes how new modules (e.g. commands) are created and loaded.
 
 | **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Classes | ✓ | ✓ | ? | ✓ | ※1 | ✓ |
-| Specific exports | ✘ | ✘ | ? | ✘ | ✘ | ✘ |
+| Classes | ✓ | ✓ | ? | ✓ | ✘ | ✓ |
+| Specific exports | ✘ | ✘ | ? | ✘ | ✓ | ✘ |
 | ES module support | ✘ | ✘ | ? | ✘ | ✘ | ✘ |
 | TypeScript module support | ✓ | ✓ | ? | ✓ | ✘ | ✓ |
 | Recursive loading | ✓ | ✓ | ? | ✓ | ✓ | ? |
@@ -128,8 +128,6 @@ This includes how new modules (e.g. commands) are created and loaded.
 | Module categories | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 | Custom module types | ✓ | ✘ | ? | ✓ | ✘ | ? |
 | Plugins support | ✘ | ✘ | ? | ✓ | ✓ | ✓ |
-
-※1: Komada's backend is classbased, pieces (commands, monitors...) aren't.
 
 ## Databases
 
