@@ -48,7 +48,7 @@ Argument parsing within one command does not count towards that criteria.
 | Cooldowns | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 | Monitoring messages | ✓ | ✓ | ? | ✓ | ✓ | ? |
 | Blocking messages | ✓ | ✓ | ? | ✓ | ✓ | ? |
-| Channel restrictions | ✓ | ✓ | ? | ✘ | ✘ | ✓ |
+| Channel restrictions | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 | Permissions restrictions | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
 | Command edits | ✓ | ✓ | ? | ✓ | ✓ | ? |
 | Subcommands | ✘ | ✘ | ? | ✘ | ✘ | ? |
