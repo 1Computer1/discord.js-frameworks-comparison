@@ -243,9 +243,3 @@ Notes should refer to the stable version unless explicitly referred to as develo
 
 Opt-in features should be labelled as `✓`, do not make a note that they are opt-in.  
 Official plugins are to be labelled with a `✓`, along with a note as to where to find them.  
-
-## Biases
-
-There are currently a lots of biases to Akairo at this moment.  
-Developers of other frameworks, please help reduce bias!  
-(Remove this section once everyone is mostly happy)  
