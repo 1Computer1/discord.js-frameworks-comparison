@@ -73,12 +73,12 @@ Less obvious criterias:
 | **Argument Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ordered arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Unordered arguments | ✘ ⇒ ✓ | ✘ | ✘ | ✘ | ✘ | ? |
+| Unordered arguments | ✘ ⇒ ✓ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Optional arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Quoted arguments | ✓ | ✓ | ✘ | ✓ | ✘ | ? |
 | Flag arguments | ✓ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Rest arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Dependent arguments | ✓ | ✘ | ✓ | ✘ | ✘ | ? |
+| Dependent arguments | ✓ | ✘ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Argument types | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
 | Union types | ✘ ⇒ ✓ | ✘ | ✘ | ✓ | ✓ | ? |
 | Custom types | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -100,12 +100,12 @@ Custom prompts do not count for other specific criterias, even if they are repli
 | **Prompting** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | From argument parsing | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
-| Prompt from code | ✓ | ✓ | ✓ | ✘ | ✘ | ? |
+| Prompt from code | ✓ | ✓ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Prompt time limit | ✓ | ✓ | ✓ | ✓ | ※4 | ? |
-| Prompt retry limit | ✓ | ✓ | ✘ | ✘ | ✘ | ? |
+| Prompt retry limit | ✓ | ✓ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Prompt cancellation | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
 | Infinite prompts | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
-| Custom text prompt system | ✘ | ✘ | ✓ | ✘ | ✘ | ? |
+| Custom text prompt system | ✘ | ✘ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Custom prompt messages | ✓ | ※1 | ✓ | ✓ | ✘ | ? |
 | Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ✘ | ※5 | ※5 | ? |
 | Reaction prompt system | ✘ | ? | ✘ | ✓ | ✘ | ? |
