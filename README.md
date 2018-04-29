@@ -53,7 +53,7 @@ Argument parsing within one command does not count towards that criteria.
 | Channel restrictions | ✓ | ✓ | ※1 | ✓ | ✓ | ✓ |
 | Permissions restrictions | ✓ | ✓ | ※1 | ✓ | ✓ | ✓ |
 | Command edits | ✓ | ✓ | ✘ | ✓ | ✓ | ? |
-| Subcommands | ✘ | ✘ | ✘ | ✘ | ✘ | ? |
+| Subcommands | ✘ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Run from code | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Typing mode | ✓ | ? | ※1 | ✓ | ✘ | ? |
 | Help information | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
@@ -76,7 +76,7 @@ Less obvious criterias:
 | Unordered arguments | ✘ ⇒ ✓ | ✘ | ✘ | ✘ | ✘ | ? |
 | Optional arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Quoted arguments | ✓ | ✓ | ✘ | ✓ | ✘ | ? |
-| Flag arguments | ✓ | ✘ | ✘ | ✘ | ✘ | ? |
+| Flag arguments | ✓ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Rest arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Dependent arguments | ✓ | ✘ | ✓ | ✘ | ✘ | ? |
 | Argument types | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
@@ -146,15 +146,15 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | SQLite | ✓ | ✓ | ∅ | ✓ †1 | ✓ †2 | ✓ |
 | MySQL | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ✓ |
-| MSSQL | ✘ | ✘ | ∅ | ✘ | ✘ | ✓ |
-| PostgreSQL | ✘ | ✘ | ∅ | ✘ | ✘ | ✓ |
+| MSSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
+| PostgreSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
 | Sequelize | ✓ | ✘ | ∅ | ✘ | ✘ | ✓ |
 | NeDB | ✘ | ? | ∅ | ✓ †1 | ✓ †2 | ? |
 | MongoDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
 | RethinkDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
 | Custom providers | ✓ | ✓ | ∅ | ✓ | ✓ | ✓ |
 | Disabled commands | ✘ | ✓ | ✘ | ✓ | ✓ | ✓ |
-| Blacklist | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ |
+| Blacklist | ✘ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ✓ |
 | Prefixes | ✘ | ✓ | ✘ | ✓ | ✓ | ✓ |
 | Localization | ✘ | ✘ | ✘ | ✓ | ✘ | ✓ |
 | Custom settings | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
