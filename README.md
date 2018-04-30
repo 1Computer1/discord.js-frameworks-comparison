@@ -11,7 +11,7 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 
 | **General** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf)
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| Library version | 7.5.1 | 0.9.0 | 7.3.5 | 0.4.0 | 0.21.1 | 3.0.1 |
+| Library version | 7.5.1 | 0.10.0 | 7.3.5 | 0.4.0 | 0.21.1 | 3.0.1 |
 | Discord.js version | `^11.2.1` | `^11.2.1` | `^11.1.0` | Master branch | Master branch | Custom 11.1 |
 | Node.js version | 6.0.0 | 7.0.0 | 6.0.0 | 8.5.0 | 8.5.0 | 8.0.0 |
 | Typings | ✓ | ✓ | ✓ †1 | ✓ | ✘ | ✓ †1 |
@@ -80,7 +80,7 @@ Less obvious criterias:
 | Rest arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Dependent arguments | ✓ | ✘ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Argument types | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
-| Union types | ✘ ⇒ ✓ | ✘ | ✘ | ✓ | ✓ | ? |
+| Union types | ✘ ⇒ ✓ | ✓ | ✘ | ✓ | ✓ | ? |
 | Custom types | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | User and member matching | ✓ | ✓ | ※3 | ※1 | ※2 | ✓ |
 | Role matching | ✓ | ✓ | ※3 | ※1 | ※2 | ✓ |
