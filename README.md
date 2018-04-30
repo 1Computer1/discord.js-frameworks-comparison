@@ -53,7 +53,7 @@ Argument parsing within one command does not count towards that criteria.
 | Channel restrictions | ✓ | ✓ | ※1 | ✓ | ✓ | ✓ |
 | Permissions restrictions | ✓ | ✓ | ※1 | ✓ | ✓ | ✓ |
 | Command edits | ✓ | ✓ | ✘ | ✓ | ✓ | ? |
-| Subcommands | ✘ | ✘ | ✘ | ✘ | ✘ | ? |
+| Subcommands | ✘ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Run from code | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Typing mode | ✓ | ? | ※1 | ✓ | ✘ | ? |
 | Help information | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
@@ -73,12 +73,12 @@ Less obvious criterias:
 | **Argument Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ordered arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Unordered arguments | ✘ ⇒ ✓ | ✘ | ✘ | ✘ | ✘ | ? |
+| Unordered arguments | ✘ ⇒ ✓ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Optional arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Quoted arguments | ✓ | ✓ | ✘ | ✓ | ✘ | ? |
-| Flag arguments | ✓ | ✘ | ✘ | ✘ | ✘ | ? |
+| Flag arguments | ✓ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Rest arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Dependent arguments | ✓ | ✘ | ✓ | ✘ | ✘ | ? |
+| Dependent arguments | ✓ | ✘ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Argument types | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
 | Union types | ✘ ⇒ ✓ | ✘ | ✘ | ✓ | ✓ | ? |
 | Custom types | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -100,12 +100,12 @@ Custom prompts do not count for other specific criterias, even if they are repli
 | **Prompting** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | From argument parsing | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
-| Prompt from code | ✓ | ✓ | ✓ | ✘ | ✘ | ? |
+| Prompt from code | ✓ | ✓ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Prompt time limit | ✓ | ✓ | ✓ | ✓ | ※4 | ? |
-| Prompt retry limit | ✓ | ✓ | ✘ | ✘ | ✘ | ? |
+| Prompt retry limit | ✓ | ✓ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
 | Prompt cancellation | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
 | Infinite prompts | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
-| Custom text prompt system | ✘ | ✘ | ✓ | ✘ | ✘ | ? |
+| Custom text prompt system | ✘ | ✘ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
 | Custom prompt messages | ✓ | ※1 | ✓ | ✓ | ✘ | ? |
 | Stores prompts and replies | ※2 ⇒ ✓ | ※3 ⇒ ✓ | ✘ | ※5 | ※5 | ? |
 | Reaction prompt system | ✘ | ? | ✘ | ✓ | ✘ | ? |
@@ -146,15 +146,15 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | SQLite | ✓ | ✓ | ∅ | ✓ †1 | ✓ †2 | ✓ |
 | MySQL | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ✓ |
-| MSSQL | ✘ | ✘ | ∅ | ✘ | ✘ | ✓ |
-| PostgreSQL | ✘ | ✘ | ∅ | ✘ | ✘ | ✓ |
+| MSSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
+| PostgreSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
 | Sequelize | ✓ | ✘ | ∅ | ✘ | ✘ | ✓ |
 | NeDB | ✘ | ? | ∅ | ✓ †1 | ✓ †2 | ? |
 | MongoDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
 | RethinkDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
 | Custom providers | ✓ | ✓ | ∅ | ✓ | ✓ | ✓ |
 | Disabled commands | ✘ | ✓ | ✘ | ✓ | ✓ | ✓ |
-| Blacklist | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ |
+| Blacklist | ✘ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ✓ |
 | Prefixes | ✘ | ✓ | ✘ | ✓ | ✓ | ✓ |
 | Localization | ✘ | ✘ | ✘ | ✓ | ✘ | ✓ |
 | Custom settings | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
