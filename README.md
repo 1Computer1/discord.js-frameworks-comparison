@@ -125,7 +125,7 @@ This includes how new modules (e.g. commands) are created and loaded.
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Classes | ✓ | ✓ | ✓ | ✓ | ✘ | ✓ |
 | Specific exports | ✘ | ✘ | ✘ => ✓ | ✘ | ✓ | ✘ |
-| ES module support | ✘ | ✘ | ✘ | ✘ ⇒ ✓†1 | ✘ | ✘ |
+| ES module support | ✘ | ✘ | ✘ | ✘ ⇒ ✓ †1 | ✘ | ✘ |
 | TypeScript module support | ✓ | ✓ | ✓ | ✓ | ✘ | ✓ |
 | Recursive loading | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
 | Loading and unloading | ✓ | ✓ | ✓ | ✓ | ✘ | ? |
@@ -146,13 +146,13 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 
 | **Databases** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles]†3 | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| FireStore | ? | ? | ∅ | ✓ †1 | ? | ? |
-| Level | ? | ? | ∅ | ✓ †1 | ? | ? |
+| FireStore | ? | ? | ∅ | ✓ †1 | ✘ | ? |
+| Level | ? | ? | ∅ | ✓ †1 | ✘ | ? |
 | MongoDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
 | MSSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
 | MySQL | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ✓ |
 | NeDB | ✘ | ? | ∅ | ✓ †1 | ✓ †2 | ? |
-| Neo4J | ? | ? | ∅ | ✓ †1 | ? | ? |
+| Neo4J | ? | ? | ∅ | ✓ †1 | ✘ | ? |
 | PostgreSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
 | RethinkDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
 | Sequelize | ✓ | ✘ | ∅ | ✘ | ✘ | ✓ |
