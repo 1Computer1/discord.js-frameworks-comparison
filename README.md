@@ -9,7 +9,7 @@ Discord.js versions are noted in semver where applicable.
 Node.js versions are the minimum versions required.  
 Dependencies do not include Discord.js, TypeScript, or optional/peer dependencies.  
 
-| **General** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf)
+| **General** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf]
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Library version | 7.5.1 | 0.10.0 | 7.3.5 | 0.4.0 | 0.21.1 | 3.0.1 |
 | Discord.js version | `^11.2.1` | `^11.2.1` | `^11.1.0` | Master branch | Master branch | Custom 11.1 |
@@ -19,14 +19,14 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 | Documentation | [Akairo](https://1computer1.github.io/discord-akairo/) | [Commando](https://discord.js.org/#/docs/commando/master/general/welcome) | [Handles](http://handles.topkek.pw/) | [Klasa](https://klasa.js.org/) | [Komada](https://komada.js.org/) | [YAMDBF](https://yamdbf.js.org/) |
 | VSCode Extension | ✘ | ? | ✘ | ✓ | ✓ | ✘ |
 
-†1: Handles and YAMDBF are written in TypeScript.  
+†1: Handles and YAMDBF are written in TypeScript.
 
 ## Command Parsing
 
 Command parsing is how frameworks parse messages into commands.  
 This includes prefixes, aliases, etc.  
 
-| **Command Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Command Parsing** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Command aliases | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Mention as prefix | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -35,7 +35,7 @@ This includes prefixes, aliases, etc.
 | Regular expression trigger | ✓ | ✓ | ✓ | ✓ | ✓ | ✘ |
 | Stores original input | ✓ | ✓ | ✓ | ✓ | ✓ | ✘ |
 
-※1: Custom implementations only; see databases section.  
+※1: Custom implementations only; see databases section.
 
 ## Command Handling
 
@@ -45,7 +45,7 @@ It also includes the monitoring of and the inhibition of messages and commands.
 Subcommands are commands that are individual commands with the same base name.  
 Argument parsing within one command does not count towards that criteria.  
 
-| **Command Handling** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Command Handling** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Cooldowns | ✓ | ✓ | ※1 | ✓ | ✓ | ✓ |
 | Monitoring messages | ✓ | ✓ | ※1 | ✓ | ✓ | ? |
@@ -58,7 +58,7 @@ Argument parsing within one command does not count towards that criteria.
 | Typing mode | ✓ | ? | ※1 | ✓ | ✘ | ? |
 | Help information | ✓ | ✓ | ✘ | ✓ | ✓ | ✓ |
 
-※1: Custom implementations only; see databases section.  
+※1: Custom implementations only; see databases section.
 
 ## Argument Parsing
 
@@ -70,7 +70,7 @@ Less obvious criterias:
 - Dependent arguments are arguments whose behavior depends on previous arguments.
 - User/member/role/channel matching means to be able to find an item based on approximations to their name, their ID, etc.
 
-| **Argument Parsing** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Argument Parsing** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ordered arguments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Unordered arguments | ✘ ⇒ ✓ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ? |
@@ -97,7 +97,7 @@ Less obvious criterias:
 Prompting is the ability to collect messages from the user without invoking a command directly.  
 Custom prompts do not count for other specific criterias, even if they are replicable.  
 
-| **Prompting** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Prompting** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | From argument parsing | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
 | Prompt from code | ✓ | ✓ | ✓ | ✘ ⇒ ✓ | ✘ | ? |
@@ -121,11 +121,11 @@ Custom prompts do not count for other specific criterias, even if they are repli
 The module system of a framework is how the framework structures its modules.  
 This includes how new modules (e.g. commands) are created and loaded.  
 
-| **Module System** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Module System** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Classes | ✓ | ✓ | ✓ | ✓ | ✘ | ✓ |
 | Specific exports | ✘ | ✘ | ✘ => ✓ | ✘ | ✓ | ✘ |
-| ES module support | ✘ | ✘ | ✘ | ✘ | ✘ | ✘ |
+| ES module support | ✘ | ✘ | ✘ | ✘ ⇒ ✓ †1 | ✘ | ✘ |
 | TypeScript module support | ✓ | ✓ | ✓ | ✓ | ✘ | ✓ |
 | Recursive loading | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
 | Loading and unloading | ✓ | ✓ | ✓ | ✓ | ✘ | ? |
@@ -134,24 +134,29 @@ This includes how new modules (e.g. commands) are created and loaded.
 | Custom module types | ✓ | ✘ | ✘ | ✓ | ✘ | ? |
 | Plugins support | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ |
 
+†1: Klasa has experimental support for ESM in the `esm` branch from the repository.
+
 ## Databases
 
 This section compares support for databases (usually for an npm library).  
 It also compares settings that can be changed for Discord.  
 Custom settings do not count for other specific settings, even if they are replicable.  
 
-Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.  
+Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 
-| **Databases** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles)†3 | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Databases** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles]†3 | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
-| SQLite | ✓ | ✓ | ∅ | ✓ †1 | ✓ †2 | ✓ |
-| MySQL | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ✓ |
-| MSSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
-| PostgreSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
-| Sequelize | ✓ | ✘ | ∅ | ✘ | ✘ | ✓ |
-| NeDB | ✘ | ? | ∅ | ✓ †1 | ✓ †2 | ? |
+| FireStore | ? | ? | ∅ | ✓ †1 | ✘ | ? |
+| Level | ? | ? | ∅ | ✓ †1 | ✘ | ? |
 | MongoDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
+| MSSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
+| MySQL | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ✓ |
+| NeDB | ✘ | ? | ∅ | ✓ †1 | ✓ †2 | ? |
+| Neo4J | ? | ? | ∅ | ✓ †1 | ✘ | ? |
+| PostgreSQL | ✘ | ✘ | ∅ | ✓ †1 | ✘ | ✓ |
 | RethinkDB | ✘ | ✘ | ∅ | ✓ †1 | ✓ †2 | ? |
+| Sequelize | ✓ | ✘ | ∅ | ✘ | ✘ | ✓ |
+| SQLite | ✓ | ✓ | ∅ | ✓ †1 | ✓ †2 | ✓ |
 | Custom providers | ✓ | ✓ | ∅ | ✓ | ✓ | ✓ |
 | Disabled commands | ✘ | ✓ | ✘ | ✓ | ✓ | ✓ |
 | Blacklist | ✘ | ✘ | ✘ | ✘ ⇒ ✓ | ✘ | ✓ |
@@ -165,9 +170,9 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 
 ## Events
 
-Events that are useful for a framework are compared here.  
+Events that are useful for a framework are compared here.
 
-| **Events** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Events** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Modular event listeners | ✓ | ✘ | ✘ | ✓ | ✓ | ? |
 | Reloadable event structures | ✓ | ? | ✘ | ✓ | ✓ | ? |
@@ -182,9 +187,9 @@ Events that are useful for a framework are compared here.
 
 ## Promise Support
 
-Support for Promises, either as return values from the user or as implementations internally.  
+Support for Promises, either as return values from the user or as implementations internally.
 
-| **Promise Support** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Promise Support** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Promises used internally | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Message monitoring | ✓ | ✘ | ∅ | ✓ | ✓ | ? |
@@ -197,9 +202,9 @@ Support for Promises, either as return values from the user or as implementation
 The settings of the framework are options that changes the behavior.  
 They are used to opt-in or opt-out of built-in features.  
 
-Built-in features marked as `✓` means they exist and are modifiable, `✘` means they exist and are not modifiable, and `∅` means they do not exist.  
+Built-in features marked as `✓` means they exist and are modifiable, `✘` means they exist and are not modifiable, and `∅` means they do not exist.
 
-| **Settings** | [**Akairo**](https://www.npmjs.com/package/discord-akairo) | [**Commando**](https://www.npmjs.com/package/discord.js-commando) | [**Handles**](https://www.npmjs.com/package/discord-handles) | [**Klasa**](https://www.npmjs.com/package/klasa) | [**Komada**](https://www.npmjs.com/package/komada) | [**YAMDBF**](https://www.npmjs.com/package/yamdbf) |
+| **Settings** | [**Akairo**][akairo] | [**Commando**][commando] | [**Handles**][handles] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | Modifiable built-in commands | ∅ | ✘ | ∅ | ✓ | ✓ | ✓ |
 | Modifiable built-in event handlers | ∅ | ? | ✓ | ✓ | ✓ | ? |
@@ -230,7 +235,7 @@ Likewise, `✘ ⇒ ✓` means that the feature is not available in the stable re
 Library versions are for the stable release of the framework.  
 Discord.js versions follows semver while Node.js versions is the minimum release.  
 
-Notes will refer to the stable version unless explicitly referred to as development version.  
+Notes will refer to the stable version unless explicitly referred to as development version.
 
 ## Contributing
 
@@ -243,3 +248,10 @@ Notes should refer to the stable version unless explicitly referred to as develo
 
 Opt-in features should be labelled as `✓`, do not make a note that they are opt-in.  
 Official plugins are to be labelled with a `✓`, along with a note as to where to find them.  
+
+[akairo]: https://www.npmjs.com/package/discord-akairo
+[commando]: https://www.npmjs.com/package/discord.js-commando
+[handles]: https://www.npmjs.com/package/discord-handles
+[klasa]: https://www.npmjs.com/package/klasa
+[komada]: https://www.npmjs.com/package/komada
+[yamdbf]: https://www.npmjs.com/package/yamdbf
