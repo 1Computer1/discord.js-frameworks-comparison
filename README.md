@@ -212,7 +212,6 @@ Built-in features marked as `✓` means they exist and are modifiable, `✘` mea
 | Modifiable built-in command handler | ✓ | ? | ✓ | ✓ | ✓ | ? |
 | Modifiable built-in responses | ✓ ⇒ ∅ | ✘ | ✓ | ✓ | ✘ | ✓ |
 | Modifiable built-in locales | ∅ | ∅ | ∅ | ✓ | ∅ | ✓ |
-| Selfbot mode | ✓ | ✓ | ∅ | ✓ | ✓ | ✓ |
 | Bot owner | ✓ | ✓ | ∅ | ✓ | ✓ | ✓ |
 | Multiple owners | ✓ | ✓ | ∅ | ✓ | ✓ | ✓ |
 | Module directories | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
