@@ -142,7 +142,7 @@ Custom settings do not count for other specific settings, even if they are repli
 Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 
 | **Databases** | [**Akairo**][akairo] | [**Commando**][commando] | [**Klasa**][klasa] | [**Komada**][komada] | [**YAMDBF**][yamdbf] |
-| --- | :-: | :-: | :-: | :-: | :-: | :-: |
+| --- | :-: | :-: | :-: | :-: | :-: |
 | FireStore | ? | ? | ✓ †1 | ✘ | ? |
 | Level | ? | ? | ✓ †1 | ✘ | ? |
 | MongoDB | ✘ | ✘ | ✓ †1 | ✓ †2 | ? |
