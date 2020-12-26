@@ -19,8 +19,8 @@ Dependencies do not include Discord.js, TypeScript, or optional/peer dependencie
 | Documentation      | [Akairo][akairo-gh]  | [Commando][commando-gh]  | [YAMDBF][yamdbf-gh]  | [Sapphire][sapphire-gh]  |
 | VSCode Extension   |          ✘          |             ?             |          ✘          |             ✘            |
 
-†1: YAMDBF is written in TypeScript.
-†2: Sapphire is written in TypeScript.
+†1: YAMDBF is written in TypeScript.  
+†2: Sapphire is written in TypeScript.  
 
 ## Command Parsing
 
