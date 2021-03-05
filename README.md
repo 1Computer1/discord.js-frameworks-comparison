@@ -33,8 +33,8 @@ This includes prefixes, aliases, etc.
 | Mention as prefix              |          ✓           |             ✓            |           ✓          |             ✓            |
 | Multiple prefixes              |          ✓           |             ✘            |          ✘          |             ✓            |
 | Per-guild prefix customisation |          ✓           |             ✓            |           ✓          |             ✓            |
-| Regular expression trigger     |          ✓           |             ✓            |           ✘          |             ✘            |
-| Stores original input          |          ✓           |             ✓            |           ✘          |             ✘            |
+| Regular expression trigger     |          ✓           |             ✓            |           ✘          |             ✓            |
+| Stores original input          |          ✓           |             ✓            |           ✘          |             ✓            |
 
 ## Command Handling
 
@@ -153,7 +153,7 @@ Sequelize support does not count as SQLite, MySQL, MSSQL, or PostgreSQL support.
 | SQLite            |           ✓          |             ✓            |           ✓          |             ∅            |
 | Custom providers  |           ✓          |             ✓            |           ✓          |             ∅            |
 | Disabled commands |           ✘          |             ✓            |           ✓          |            ※1            |
-| Blacklist         |           ✘          |             ✘            |           ✓          |             ∅            |
+| Blacklist         |           ✘          |             ✘            |           ✓          |            ※1            |
 | Prefixes          |           ✘          |             ✓            |           ✓          |             ✓            |
 | Localization      |           ✘          |             ✘            |           ✓          |             ∅            |
 | Custom settings   |           ✓          |             ✓            |           ✓          |             ∅            |
